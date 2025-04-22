@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "Notice: Admission Open",
+      "content": "Admissions are now open for all classes.",
+      "detail": "Admissions for the academic year 2023-24 are now open for all classes from KG to 12th standard. The admission process will be conducted online through our portal. Please visit www.edplatform.edu/admissions to apply. Last date for submission is June 30, 2023.",
+      "date": "2023-05-15"
+    },
+    {
+      "id": 2,
+      "title": "Update: Exam Schedule",
+      "content": "Final exam schedule has been released.",
+      "detail": "The final examination schedule for all classes has been published. Exams will commence from March 15th and conclude on April 5th. Practical exams will be conducted in the week prior to theory exams. Detailed timetable is available on the notice board and our website.",
+      "date": "2023-02-28"
+    }
+  ]
+  

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EduPlatform</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Navigation Bar -->
+  <header class="topnav">
+    <div class="logo">EduPlatform</div>
+    <nav class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#posts" class="nav-link">Posts</a>
+        <a href="#courses" class="nav-link">Courses</a>
+    </nav>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search..." />
+        <button class="search-btn">Search</button>
+    </div>
+</header>
+
+  <div class="main-wrapper">
+    <!-- Left Ad -->
+    <aside class="ad-space">Ad Space</aside>
+
+    <!-- A4 Content Area -->
+    <main class="content-a4">
+      <section id="home">
+        <h1>Recent Posts</h1>
+        <div id="homeContent" class="card-container"></div>
+        <div id="pagination"></div>
+      </section>
+
+      <section id="posts" style="display:none">
+        <h1>All Posts</h1>
+        <div id="postContent" class="card-container"></div>
+      </section>
+
+      <section id="post-detail" style="display:none">
+        <button onclick="showSection('home')" class="back-btn">← Back to Posts</button>
+        <div id="postDetailContent"></div>
+      </section>
+
+      <section id="courses" style="display:none">
+        <h1>Courses</h1>
+        <div class="class-grid">
+          <!-- Class cards remain the same -->
+        </div>
+        <div id="classTopics" class="topics-container"></div>
+      </section>
+    </main>
+
+    <!-- Right Ad -->
+    <aside class="ad-space">Ad Space</aside>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
